@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Lisu+Bosa:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+nav {
+    height: 12vh;
+    width: 100%;
+    padding: 40px;
+    border-bottom: 1px solid black;
+    background-color: #FFC017;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+    margin-right: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+
+}
+
+.navbar img {
+    width: 15%;
+
+}
+
+.head-part {
+    display: flex;
+
+}
+
+.head-part button {
+    border: none;
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 120px;
+    border-radius: 20px;
+
+}
+.first-page{
+    border: 1px solid black;
+    min-height: 80vh;
+    background-color: #FFC017;
+}
+.text-first{
+    width: 50%;
+    height:475px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   padding-left: 35px;
+}
+.text-first h1 {
+    font-size: 100px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    font-family: 'Lisu Bosa', serif;
+    
+}
+.text-first h5{
+    font-size: 24px;
+    font-weight: 400; 
+    margin-bottom:50px ;
+} 
+.text-first button{
+    height: 40px;
+    width: 32%;
+    border: none;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+.second-page {
+    min-height: 60vh;
+    color:black;
+    border-bottom: 1px solid gray;
+}
+.cards{
+  min-height: 100%;
+  display:flex;
+flex-direction: row;
+justify-content: center;
+flex-wrap: wrap;
+
+padding: 10px;
+
+
+}
+.card-one {
+    height:110px;
+    width: 30%;
+    margin: 5px;
+    padding: 5px;
+
+
+    
+}
+.image-one {
+    width: 7%;
+    border-radius: 50%;
+}
+.card-one h5 {
+    font-size: 15px;
+    font-weight: 600;
+}
+.card-one img {
+    width: 7%;
+    margin-right: 1px;
+}
+.card-one pre {
+    margin-top: 5px;
+} 
+.trade
+{
+    margin-top:40px ;
+    margin-left: 60px;
+}
+.sketch{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 13px;
+} 
+.arts{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 13px;
+} 
+.third-page{
+   height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}  
+.scroll-page{
+  
+    width: 60%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin: 10px;     
+}
+.scroll-page::-webkit-scrollbar{
+    display:none;
+}
+.options{
+    width: 40%;
+    padding:5%;
+    position:static;
+ 
+}
+.many-btn{
+    display: flex;
+    margin-top: 10px;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+.many-btn button{
+    border: none;
+    height: 35px;
+    border-radius: 20px;
+    margin: 5px;
+
+}
+.options a{
+    text-decoration: none;
+    color: forestgreen;
+    font-size: 13px ;  
+}
+.help-section {
+    border-top: 1px solid gray;
+    margin-top: 35%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    color: #7A7A7A;
+}
+.help-section li{
+    margin: 7px;
+    margin-top: 25px;
+}
+.card-class{
+    height:20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+    margin:20px;
+}
+.card-class button {
+    border: none;
+    color: #6B6B6B;
+    height: 25px;
+    border-radius: 20px;
+}
+.card-class pre{
+    font-size: 13px;
+    color: #6B6B6B;
+    margin-top: 5px;
+}
+.card-class h1{
+    font-size: 20px;
+}
+.image-two img{
+    width: 95%;
+    margin-right:50px;
+}
+.image-three img{
+    width:75%;
+    margin-left:20%;
+    
+}
+.image-four img{
+    width:70%;
+    margin-left:25%;
+   
+}
+.image-five img{
+    width:66%;
+    margin-left:27%;
+ 
+}
+.image-six img{
+    width:75%;
+    margin-left:18%;
+   
+}
+.image-seven img{
+    width:65%;
+    margin-left:30%;
+    
+}
+.image-eight img{
+    width:95%;
+    margin-right:10%;
+    
+}
+.image-nine img{
+    width:190px;
+    margin-right:22px;
+  
+   
+}
+.image-ten img{
+    width:67%;
+    margin-left:27%;
+   
+}
+.image-eleven img{
+    width:70%;
+    margin-left:50px;
+   
+} 
+#black-img{
+    width: 8%;
+    border-radius: 50%;
+}
+#name-style {
+    display:flex;
+    align-items: center;
+}
+#name-style p{
+    font-size: 12px;
+}
+.scroll-page i{
+    color: blue;
+     font-size: 12px;
+     margin-left:5px;
+    
+
+}
+
+@media (max-width:768px) {
+    nav {
+        padding: 10px;
+    }
+
+    .navbar img {
+        width: 35%;
+    }
+
+    .nav-list {
+        display: none;
+    }
+    .text-first{
+        width: 100%;
+    }
+    .cards{
+        display:flex;
+        flex-direction: column;
+        
+    }
+    .card-one {
+        width: 100%;
+        padding-left: 30px;
+    }
+    .trade{
+        margin-top:40px;
+        margin-left: 10px;
+    }
+    .third-page {
+        display:flex;
+        flex-direction: column-reverse;
+    }
+    .scroll-page{
+        width: 100%;
+        min-height: 100vh;
+    }
+
+    .options{
+        display:none;
+     
+    }
+    .image-two img{
+        width:100%;
+    }
+   .help-section{
+    display:none;
+   }
+   .image-seven img{
+    width:55%;
+    margin-left:42%;
+   }
+   .image-nine img{
+    width:170px;
+    margin-right: 10px;
+   }
+   .card-class button {
+    display:none;
+   }
+
+    
+
+}
